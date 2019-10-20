@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3FE56E04-1141-4183-89AB-760CECF771C5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Gestion_magasin</RootNamespace>
+    <AssemblyName>Gestion_magasin</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Acer\Desktop\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>71579370ABDA268395A14A77B6BC05806D25B90D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Gestion_magasin_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon_stock.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\Bunifu .NET UI Framework 1.5.3\Crack\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.1, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.1\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_about.Designer.cs">
+      <DependentUpon>Form_about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_acceuil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_acceuil.Designer.cs">
+      <DependentUpon>Form_acceuil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_addproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_addproduct.Designer.cs">
+      <DependentUpon>Form_addproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_allproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_allproduct.Designer.cs">
+      <DependentUpon>Form_allproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_allproduct_superviseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_allproduct_superviseur.Designer.cs">
+      <DependentUpon>Form_allproduct_superviseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_deleteproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_deleteproduct.Designer.cs">
+      <DependentUpon>Form_deleteproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_editproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_editproduct.Designer.cs">
+      <DependentUpon>Form_editproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_enterproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_enterproduct.Designer.cs">
+      <DependentUpon>Form_enterproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_menu.Designer.cs">
+      <DependentUpon>Form_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_saveproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_saveproduct.Designer.cs">
+      <DependentUpon>Form_saveproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_takeoutproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_takeoutproduct.Designer.cs">
+      <DependentUpon>Form_takeoutproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gestion_magasinDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestion_magasinDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestion_magasinDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestion_magasinDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestion_magasinDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestion_magasinDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestion_magasinDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestion_magasinDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestion_magasinDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestion_magasinDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestion_magasinDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestion_magasinDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="stock_managementDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>stock_managementDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="stock_managementDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>stock_managementDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="stock_managementDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>stock_managementDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="stock_managementDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>stock_managementDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="stock_managementDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>stock_managementDataSet4.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_about.resx">
+      <DependentUpon>Form_about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_acceuil.resx">
+      <DependentUpon>Form_acceuil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_addproduct.resx">
+      <DependentUpon>Form_addproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_allproduct.resx">
+      <DependentUpon>Form_allproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_allproduct_superviseur.resx">
+      <DependentUpon>Form_allproduct_superviseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_deleteproduct.resx">
+      <DependentUpon>Form_deleteproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_editproduct.resx">
+      <DependentUpon>Form_editproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_enterproduct.resx">
+      <DependentUpon>Form_enterproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_menu.resx">
+      <DependentUpon>Form_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_saveproduct.resx">
+      <DependentUpon>Form_saveproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_takeoutproduct.resx">
+      <DependentUpon>Form_takeoutproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="gestion_magasinDataSet.xsc">
+      <DependentUpon>gestion_magasinDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="gestion_magasinDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestion_magasinDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestion_magasinDataSet.xss">
+      <DependentUpon>gestion_magasinDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="gestion_magasinDataSet1.xsc">
+      <DependentUpon>gestion_magasinDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="gestion_magasinDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestion_magasinDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestion_magasinDataSet1.xss">
+      <DependentUpon>gestion_magasinDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="gestion_magasinDataSet2.xsc">
+      <DependentUpon>gestion_magasinDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="gestion_magasinDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestion_magasinDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestion_magasinDataSet2.xss">
+      <DependentUpon>gestion_magasinDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="gestion_magasinDataSet3.xsc">
+      <DependentUpon>gestion_magasinDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="gestion_magasinDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestion_magasinDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestion_magasinDataSet3.xss">
+      <DependentUpon>gestion_magasinDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="gestion_magasinDataSet4.xsc">
+      <DependentUpon>gestion_magasinDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="gestion_magasinDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestion_magasinDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestion_magasinDataSet4.xss">
+      <DependentUpon>gestion_magasinDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="gestion_magasinDataSet5.xsc">
+      <DependentUpon>gestion_magasinDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="gestion_magasinDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestion_magasinDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestion_magasinDataSet5.xss">
+      <DependentUpon>gestion_magasinDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Gestion_magasin_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="stock_managementDataSet.xsc">
+      <DependentUpon>stock_managementDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="stock_managementDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>stock_managementDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="stock_managementDataSet.xss">
+      <DependentUpon>stock_managementDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="stock_managementDataSet1.xsc">
+      <DependentUpon>stock_managementDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="stock_managementDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>stock_managementDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="stock_managementDataSet1.xss">
+      <DependentUpon>stock_managementDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="stock_managementDataSet2.xsc">
+      <DependentUpon>stock_managementDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="stock_managementDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>stock_managementDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="stock_managementDataSet2.xss">
+      <DependentUpon>stock_managementDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="stock_managementDataSet3.xsc">
+      <DependentUpon>stock_managementDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="stock_managementDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>stock_managementDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="stock_managementDataSet3.xss">
+      <DependentUpon>stock_managementDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="stock_managementDataSet4.xsc">
+      <DependentUpon>stock_managementDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="stock_managementDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>stock_managementDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="stock_managementDataSet4.xss">
+      <DependentUpon>stock_managementDataSet4.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon_stock.ico" />
+    <Content Include="MetroFramework.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel1">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word1">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

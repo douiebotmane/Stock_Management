@@ -1,0 +1,64 @@
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\bin\Debug\Gestion_magasin.exe.config
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\bin\Debug\Gestion_magasin.exe
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\bin\Debug\Gestion_magasin.pdb
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.csprojAssemblyReference.cache
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Properties.Resources.resources
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.csproj.GenerateResource.cache
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.csproj.CopyComplete
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.exe
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.pdb
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\bin\Debug\MetroFramework.dll
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.FormLogin.resources
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_menu.resources
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_about.resources
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_acceuil.resources
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_allproduct.resources
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_addproduct.resources
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_deleteproduct.resources
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_editproduct.resources
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_enterproduct.resources
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_saveproduct.resources
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_takeoutproduct.resources
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_allproduct_superviseur.resources
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.csproj.ResolveComReference.cache
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\bin\Debug\MetroFramework.Design.dll
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\bin\Debug\itextsharp.dll
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\bin\Debug\itextsharp.xml
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\bin\Debug\Gestion_magasin.exe.manifest
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\bin\Debug\Gestion_magasin.application
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.exe.manifest
+C:\Users\Acer\Desktop\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.application
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\bin\Debug\Gestion_magasin.exe.config
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\bin\Debug\Gestion_magasin.exe.manifest
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\bin\Debug\Gestion_magasin.application
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\bin\Debug\Gestion_magasin.exe
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\bin\Debug\Gestion_magasin.pdb
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\bin\Debug\itextsharp.dll
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\bin\Debug\MetroFramework.Design.dll
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\bin\Debug\MetroFramework.dll
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\bin\Debug\MetroFramework.Fonts.dll
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\bin\Debug\itextsharp.xml
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.csprojAssemblyReference.cache
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.csproj.ResolveComReference.cache
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.FormLogin.resources
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_about.resources
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_acceuil.resources
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_addproduct.resources
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_allproduct.resources
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_allproduct_superviseur.resources
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_deleteproduct.resources
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_editproduct.resources
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_enterproduct.resources
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_menu.resources
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_saveproduct.resources
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Form_takeoutproduct.resources
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.Properties.Resources.resources
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.csproj.GenerateResource.cache
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.csproj.CoreCompileInputs.cache
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.exe.manifest
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.application
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.csproj.CopyComplete
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.exe
+D:\Studies\ENSAJ\ISIC\Stage Alstom\Gestion_magasin\Gestion_magasin\obj\Debug\Gestion_magasin.pdb

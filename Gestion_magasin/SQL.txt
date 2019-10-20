@@ -1,0 +1,23 @@
+CREATE DATABASE stock_management
+
+CREATE TABLE connexion (
+    username VARCHAR (30) NOT NULL,
+    password VARCHAR (30) NOT NULL
+);
+
+CREATE TABLE connexion_admin (
+    username VARCHAR (30) NOT NULL,
+    password VARCHAR (30) NOT NULL
+);
+
+INSERT INTO connexion VALUES('respo','respo')
+INSERT INTO connexion_admin VALUES('admin','admin')
+
+CREATE TABLE products (
+    id_product		INT IDENTITY (1, 1) NOT NULL,
+    name		VARCHAR (100),
+    quantity_total	INT,
+    price		INT,
+    description		VARCHAR (MAX)
+);
+
